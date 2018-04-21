@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:elevation="10dp"
+    android:padding="15dp"
+    android:layout_margin="5dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txtnombreminera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minería Yanacocha"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtciudadminera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ciudad: Arequipa"
+                style="@style/itemmineradetalle"
+                android:drawableLeft="@drawable/ic_ubicacion"
+                />
+            <TextView
+                android:id="@+id/txtfecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fechas: 10.04.18 al 13.04.18"
+                android:textSize="13sp"
+                style="@style/itemmineradetalle"
+                android:drawableLeft="@drawable/ic_calendario"
+                />
+            <TextView
+                android:id="@+id/txtnormas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Normas: ISO90001"
+                style="@style/itemmineradetalle"
+                android:drawableLeft="@drawable/ic_normas"
+
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btestado"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Participando"
+            android:layout_margin="5dp"
+            android:textSize="10sp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_orange_light"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

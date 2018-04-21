@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@color/colorheaderdetal"
+      >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+      <TextView
+          android:id="@+id/txtnombreminera"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Minería Yanacocha"
+          android:textSize="16sp"
+          android:layout_marginLeft="10dp"
+          android:textStyle="bold"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Ciudad: Arequipa"
+          style="@style/itemmineradetalle"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Fechas: 10.04.18 al 13.04.18"
+          android:textSize="13sp"
+          style="@style/itemmineradetalle"
+          />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btestado"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Participando"
+        android:layout_margin="5dp"
+        android:textSize="10sp"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_light"
+        />
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="15dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@color/colorbodydetalle"
+      android:orientation="vertical"
+      >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normas: ISO90001"
+        style="@style/itemmineradetalle"
+        android:drawableLeft="@drawable/ic_normas"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normas: ISO90001"
+        style="@style/itemmineradetalle"
+        android:drawableLeft="@drawable/ic_normas"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normas: ISO90001"
+        style="@style/itemmineradetalle"
+        android:drawableLeft="@drawable/ic_normas"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normas: ISO90001"
+        style="@style/itemmineradetalle"
+        android:drawableLeft="@drawable/ic_normas"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normas: ISO90001"
+        style="@style/itemmineradetalle"
+        android:drawableLeft="@drawable/ic_normas"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normas: ISO90001"
+        style="@style/itemmineradetalle"
+        android:drawableLeft="@drawable/ic_normas"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normas: ISO90001"
+        style="@style/itemmineradetalle"
+        android:drawableLeft="@drawable/ic_normas"
+        android:layout_margin="5dp"
+        />
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@color/colorheaderdetal"
+      >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="La convocatoria en la fecha indicada al 12:00 hrs"
+          android:textSize="12sp"
+          android:layout_marginLeft="10dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Al participar nos comunicaremos para confirmar los datos"
+          android:textSize="12sp"
+          android:layout_marginLeft="10dp"
+          />
+
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/btcambioestado"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:text="Cancelar Suscripción"
+      android:background="@android:color/holo_red_light"
+      android:textColor="@android:color/white"
+      />
+  <Button
+      android:id="@+id/btcancelar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:text="Cancelar"
+      android:background="@color/colorcancel"
+      />
+
+</LinearLayout>
